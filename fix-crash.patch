@@ -1,0 +1,12 @@
+diff -ruN a/MANIFEST.in b/MANIFEST.in
+--- a/MANIFEST.in       2023-06-07 15:47:26.389919173 +0200
++++ b/MANIFEST.in       2023-06-07 15:49:45.489534038 +0200
+@@ -1,6 +1,7 @@
+ include jdNBTExplorer/translations/*.ts
+ exclude jdNBTExplorer/ui_compiled/*
+ include jdNBTExplorer/Logo.png
++include jdNBTExplorer/data/*
+ include jdNBTExplorer/ui/*
+ include BuildBackend.py
+ exclude tools/*
+ 
