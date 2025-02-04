@@ -38,13 +38,10 @@ modules:
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdNBTExplorer/archive/2.2.tar.gz
-        sha256: 33026cdc823df6e612acf95272d9762c2a2891ce8b6ee9e27bc90e62590c575b
+        url: https://codeberg.org/JakobDev/jdNBTExplorer/archive/2.3.tar.gz
+        sha256: ccd82c374e2c983579097dcd37e9748731376b3f314e228c1a8d52d3c04d8b13
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdNBTExplorer/releases/latest
           version-query: .tag_name
           url-query: .tarball_url
-      - type: patch
-        path: fix-crash.patch
-
