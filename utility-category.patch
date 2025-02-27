@@ -1,0 +1,37 @@
+From e5051626ae0b4358e58d37d20b3bed4b4ae13fd0 Mon Sep 17 00:00:00 2001
+From: Razze <razzeee@gmail.com>
+Date: Wed, 26 Feb 2025 22:28:49 +0100
+Subject: [PATCH] Add Utility category
+
+To move this over to `Game Tools` on Flathub
+---
+ deploy/page.codeberg.JakobDev.jdNBTExplorer.desktop      | 2 +-
+ deploy/page.codeberg.JakobDev.jdNBTExplorer.metainfo.xml | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/deploy/page.codeberg.JakobDev.jdNBTExplorer.desktop b/deploy/page.codeberg.JakobDev.jdNBTExplorer.desktop
+index 14e68d4..29fc963 100644
+--- a/deploy/page.codeberg.JakobDev.jdNBTExplorer.desktop
++++ b/deploy/page.codeberg.JakobDev.jdNBTExplorer.desktop
+@@ -6,5 +6,5 @@ Comment=An Editor for Minecraft NBT files
+ Icon=page.codeberg.JakobDev.jdNBTExplorer
+ TryExec=jdNBTExplorer
+ Exec=jdNBTExplorer %f
+-Categories=Game;Qt;
++Categories=Game;Utility;Qt;
+ SingleMainWindow=true
+diff --git a/deploy/page.codeberg.JakobDev.jdNBTExplorer.metainfo.xml b/deploy/page.codeberg.JakobDev.jdNBTExplorer.metainfo.xml
+index 7fdc9b6..910fcc2 100644
+--- a/deploy/page.codeberg.JakobDev.jdNBTExplorer.metainfo.xml
++++ b/deploy/page.codeberg.JakobDev.jdNBTExplorer.metainfo.xml
+@@ -88,6 +88,7 @@
+   <url type="vcs-browser">https://codeberg.org/JakobDev/jdNBTExplorer</url>
+   <categories>
+     <category>Game</category>
++    <category>Utility</category>
+     <category>Qt</category>
+   </categories>
+   <recommends>
+-- 
+2.45.2
+
